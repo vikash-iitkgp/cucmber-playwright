@@ -1,0 +1,21 @@
+[
+    {
+      "firstName": "Jane",
+      "lastName": "",
+      "email": "jane.doe@example.com",
+      "age": "25",
+      "salary": "45000",
+      "department": "HR",
+      "isValid": false
+    },
+    {
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "email": "alice.smith@example.com",
+      "age": "35",
+      "salary": "55000",
+      "department": "Finance",
+      "isValid": true
+    }
+  ]
+  

@@ -1,0 +1,358 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "book-store-application;verify-login-workflow-with-multiple-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify Login Workflow with Multiple Credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Book Store",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:25"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5011307799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I attempt to login with multiple credentials",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the logout button if login is successful",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I should see the login button if login fails",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "book-store-application;add-a-new-record-to-webtable",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add a new record to WebTable",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to the WebTable page",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691784600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I add new records to the WebTable",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:67"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5013210800,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the records in the table",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "book-store-application;upload-and-download-file",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Upload and Download File",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to the Upload Download page",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:89"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5009883200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I upload a file",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:94"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the uploaded file path",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:100"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I download a file",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see the downloaded file path",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:112"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "book-store-application;verify-new-tab-functionality",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify new Tab functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to the Browser Window page",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5021546500,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I open a new tab",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should verify the content of the new tab",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "book-store-application;verify-new-window-functionality",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verify new Window functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I navigate to the Browser Window page",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5016491699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I open a new window",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:133"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should verify the content of the new window",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:138"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "book-store-application;verify-message-window-functionality",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify Message Window functionality",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I navigate to the Browser Window page",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5004088500,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I open a new message window",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:143"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should verify the content of the message window",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:148"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "book-store-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Book Store Application",
+    "tags": [],
+    "uri": "src\\cucumber-test\\cucumber-features\\UI-features\\element.feature"
+  }
+]
