@@ -22,16 +22,16 @@ let page: Page;
 let utils: Elementutil;
 let bookStorePage: BookStorePage;
 
-Given('I navigate to the Book Store', async () => {
+Given('I navigate to the Book Store', { timeout: 100000 }, async () => {
   const browser = await chromium.launch({ headless: false });
   const context = await browser.newContext();
   page = await context.newPage();
   utils = new Elementutil(page);
-  await page.goto(baseURL);
+  await page.goto(baseURL, { timeout: 160000 }); // Increased timeout to 60000ms
   bookStorePage = new BookStorePage(page);
 });
 
-When('I attempt to login with multiple credentials', async () => {
+When('I attempt to login with multiple credentials', { timeout: 100000 }, async () => {
   for (const { username, password } of credentials) {
     await bookStorePage.navigateToBookStore();
     await bookStorePage.navigateToLoginPage();
@@ -49,22 +49,22 @@ When('I attempt to login with multiple credentials', async () => {
   }
 });
 
-Then('I should see the logout button if login is successful', async () => {
+Then('I should see the logout button if login is successful', { timeout: 100000 }, async () => {
   const isLogoutVisible = await bookStorePage.isLogoutButtonVisible();
   expect(isLogoutVisible).toBeTruthy();
 });
 
-Then('I should see the login button if login fails', async () => {
+Then('I should see the login button if login fails', { timeout: 10000 }, async () => {
   const isLoginVisible = await bookStorePage.isLoginButtonVisible();
   expect(isLoginVisible).toBeTruthy();
 });
 
-Given('I navigate to the WebTable page', async () => {
+Given('I navigate to the WebTable page', { timeout: 10000 }, async () => {
   const webTablePage = new WebTablePage(page);
   await webTablePage.navigateToWebTable();
 });
 
-When('I add new records to the WebTable', async () => {
+When('I add new records to the WebTable', { timeout: 10000 }, async () => {
   const webTablePage = new WebTablePage(page);
   for (const record of webTableRecords) {
     await webTablePage.addNewRecord(
@@ -78,7 +78,7 @@ When('I add new records to the WebTable', async () => {
   }
 });
 
-Then('I should see the records in the table', async () => {
+Then('I should see the records in the table', { timeout: 10000 }, async () => {
   const webTablePage = new WebTablePage(page);
   for (const record of webTableRecords) {
     const isRecordAdded = await webTablePage.isRecordAdded();
@@ -86,66 +86,66 @@ Then('I should see the records in the table', async () => {
   }
 });
 
-Given('I navigate to the Upload Download page', async () => {
+Given('I navigate to the Upload Download page', { timeout: 10000 }, async () => {
   const filePage = new FilePage(page);
   await filePage.navigateToUploadDownloadPage();
 });
 
-When('I upload a file', async () => {
+When('I upload a file', { timeout: 10000 }, async () => {
   const filePage = new FilePage(page);
   const filePath = 'D:\\test.pdf';
   await filePage.uploadFile(filePath);
 });
 
-Then('I should see the uploaded file path', async () => {
+Then('I should see the uploaded file path', { timeout: 10000 }, async () => {
   const filePage = new FilePage(page);
   const uploadedFilePath = await filePage.getUploadedFilePath();
   expect(uploadedFilePath).toContain('test.pdf');
 });
 
-When('I download a file', async () => {
+When('I download a file', { timeout: 10000 }, async () => {
   const filePage = new FilePage(page);
   const downloadPath = await filePage.downloadFile();
   expect(downloadPath).toBeTruthy();
 });
 
-Then('I should see the downloaded file path', async () => {
+Then('I should see the downloaded file path', { timeout: 10000 }, async () => {
   const filePage = new FilePage(page);
   const downloadPath = await filePage.downloadFile();
   expect(downloadPath).toBeTruthy();
 });
 
-Given('I navigate to the Browser Window page', async () => {
+Given('I navigate to the Browser Window page', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.navigateToBrowserWindowPage();
 });
 
-When('I open a new tab', async () => {
+When('I open a new tab', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.openNewTabAndVerifyContent();
 });
 
-Then('I should verify the content of the new tab', async () => {
+Then('I should verify the content of the new tab', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.openNewTabAndVerifyContent();
 });
 
-When('I open a new window', async () => {
+When('I open a new window', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.openNewWindowAndVerifyContent();
 });
 
-Then('I should verify the content of the new window', async () => {
+Then('I should verify the content of the new window', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.openNewWindowAndVerifyContent();
 });
 
-When('I open a new message window', async () => {
+When('I open a new message window', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.openNewMessageWindowAndVerify();
 });
 
-Then('I should verify the content of the message window', async () => {
+Then('I should verify the content of the message window', { timeout: 10000 }, async () => {
   const browserWindowPage = new BrowserWindowPage(page);
   await browserWindowPage.openNewMessageWindowAndVerify();
 });

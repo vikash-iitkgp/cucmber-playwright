@@ -18,9 +18,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:25"
             },
             "result": {
-              "status": "failed",
-              "duration": 5011307799,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "passed",
+              "duration": 76030442200
             }
           },
           {
@@ -32,8 +31,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:34"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 17072279699
             }
           },
           {
@@ -45,8 +44,9 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 3023448300,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:54:27\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           },
           {
@@ -83,7 +83,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 691784600
+              "duration": 99208400
             }
           },
           {
@@ -96,8 +96,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5013210800,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "duration": 10003802299,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
             }
           },
           {
@@ -133,9 +133,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:89"
             },
             "result": {
-              "status": "failed",
-              "duration": 5009883200,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "passed",
+              "duration": 6235872199
             }
           },
           {
@@ -147,8 +146,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:94"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 20325299
             }
           },
           {
@@ -160,8 +159,9 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:100"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 2033100,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"test.pdf\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:103:28\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           },
           {
@@ -210,9 +210,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
             },
             "result": {
-              "status": "failed",
-              "duration": 5021546500,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "passed",
+              "duration": 1771877999
             }
           },
           {
@@ -224,8 +223,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:123"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 695572700
             }
           },
           {
@@ -237,8 +236,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:128"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1020993199
             }
           }
         ],
@@ -261,9 +260,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
             },
             "result": {
-              "status": "failed",
-              "duration": 5016491699,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "passed",
+              "duration": 113832399
             }
           },
           {
@@ -275,8 +273,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:133"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3252682300
             }
           },
           {
@@ -288,8 +286,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:138"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3152387300
             }
           }
         ],
@@ -312,9 +310,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
             },
             "result": {
-              "status": "failed",
-              "duration": 5004088500,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "passed",
+              "duration": 137404799
             }
           },
           {
@@ -326,8 +323,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:143"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3237145399
             }
           },
           {
@@ -339,8 +336,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:148"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3109657399
             }
           }
         ],

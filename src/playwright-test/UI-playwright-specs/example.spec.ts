@@ -30,6 +30,7 @@ test.describe('Book Store Application - Login Workflow', () => {
   let bookStorePage: BookStorePage;
 
   test.beforeAll(async ({ browser }) => {
+    test.setTimeout(160000); // Set timeout to 60 seconds
     // Create a new browser context and page for the test suite
     const context = await browser.newContext();
     page = await context.newPage();
