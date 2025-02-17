@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 76030442200
+              "duration": 6046657500
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17072279699
+              "duration": 16741784500
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 3023448300,
+              "duration": 3026883999,
               "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:54:27\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           },
@@ -83,7 +83,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 99208400
+              "duration": 102678100
             }
           },
           {
@@ -95,9 +95,8 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:67"
             },
             "result": {
-              "status": "failed",
-              "duration": 10003802299,
-              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+              "status": "passed",
+              "duration": 3998241500
             }
           },
           {
@@ -109,8 +108,9 @@
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:81"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 30291400,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:85:27\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           }
         ],
@@ -134,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6235872199
+              "duration": 178519100
             }
           },
           {
@@ -147,7 +147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20325299
+              "duration": 25233599
             }
           },
           {
@@ -160,7 +160,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2033100,
+              "duration": 2871200,
               "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"test.pdf\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:103:28\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           },
@@ -211,7 +211,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1771877999
+              "duration": 842125200
             }
           },
           {
@@ -224,7 +224,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 695572700
+              "duration": 688757300
             }
           },
           {
@@ -237,7 +237,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1020993199
+              "duration": 393016100
             }
           }
         ],
@@ -261,7 +261,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 113832399
+              "duration": 114630900
             }
           },
           {
@@ -274,7 +274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3252682300
+              "duration": 3221253300
             }
           },
           {
@@ -287,7 +287,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3152387300
+              "duration": 3160943899
             }
           }
         ],
@@ -311,7 +311,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 137404799
+              "duration": 167442699
             }
           },
           {
@@ -324,7 +324,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3237145399
+              "duration": 3255765999
             }
           },
           {
@@ -337,7 +337,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3109657399
+              "duration": 3166591799
             }
           }
         ],

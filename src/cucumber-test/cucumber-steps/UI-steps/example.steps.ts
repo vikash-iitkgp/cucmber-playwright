@@ -1,5 +1,5 @@
 import { Given, When, Then } from '@cucumber/cucumber';
-import { expect, Page } from '@playwright/test';
+import { expect } from '@playwright/test';
 import Elementutil from '../../../../utils/UI-Utils/elements-utils';
 import { BookStorePage } from '../../../../pages/bookStorePage';
 import { WebTablePage } from '../../../../pages/webTablePage';
@@ -8,7 +8,7 @@ import { BrowserWindowPage } from '../../../../pages/browserWindowPage';
 import * as path from 'path';
 import * as dotenv from 'dotenv';
 import { chromium } from "playwright";
-
+import { page } from '../../../../hooks/cucumber-hooks/hooks';
 dotenv.config();
 
 const screenshotPath = process.env.SCREENSHOT_PATH || './screenshots';
@@ -18,14 +18,14 @@ const recordsPath = path.join(__dirname, '../../../../test-data/UI-testData/webT
 const webTableRecords = require(recordsPath);
 const baseURL = process.env.BASEURL || 'https://example.com';
 
-let page: Page;
+//let page: Page;
 let utils: Elementutil;
 let bookStorePage: BookStorePage;
 
 Given('I navigate to the Book Store', { timeout: 100000 }, async () => {
-  const browser = await chromium.launch({ headless: false });
-  const context = await browser.newContext();
-  page = await context.newPage();
+  // const browser = await chromium.launch({ headless: false });
+  // const context = await browser.newContext();
+  // page = await context.newPage();
   utils = new Elementutil(page);
   await page.goto(baseURL, { timeout: 160000 }); // Increased timeout to 60000ms
   bookStorePage = new BookStorePage(page);

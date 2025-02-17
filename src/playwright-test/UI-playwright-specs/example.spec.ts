@@ -1,4 +1,5 @@
 import { test, expect, Page } from '@playwright/test';
+//import { test, expect } from '../../../hooks/playwright-hooks/hooks';
 import Elementutil from '../../../utils/UI-Utils/elements-utils';
 import { BookStorePage } from '../../../pages/bookStorePage';
 import { WebTablePage } from '../../../pages/webTablePage';
@@ -152,8 +153,8 @@ test.describe('Book Store Application - Login Workflow', () => {
     await browserWindowPage.openNewMessageWindowAndVerify();
   });
 
-  test.afterAll(async () => {
-    await page.waitForTimeout(3000);
-    await page.close(); // Close the page after all tests are complete
-  });
+  // test.afterAll(async () => {
+  //   await page.waitForTimeout(3000);
+  //   await page.close(); // Close the page after all tests are complete
+  // });
 });
