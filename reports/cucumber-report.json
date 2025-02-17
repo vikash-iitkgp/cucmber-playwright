@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6046657500
+              "duration": 27930415600
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16741784500
+              "duration": 16311261700
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 3026883999,
+              "duration": 3016805199,
               "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:54:27\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           },
@@ -83,7 +83,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 102678100
+              "duration": 108494800
             }
           },
           {
@@ -96,21 +96,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3998241500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "I should see the records in the table",
-            "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:81"
-            },
-            "result": {
-              "status": "failed",
-              "duration": 30291400,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:85:27\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
+              "duration": 545270800
             }
           }
         ],
@@ -121,56 +107,56 @@
         "description": "",
         "id": "book-store-application;upload-and-download-file",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 13,
         "name": "Upload and Download File",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 15,
+            "line": 14,
             "name": "I navigate to the Upload Download page",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:89"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:99"
             },
             "result": {
               "status": "passed",
-              "duration": 178519100
+              "duration": 148216599
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 16,
+            "line": 15,
             "name": "I upload a file",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:94"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:104"
             },
             "result": {
               "status": "passed",
-              "duration": 25233599
+              "duration": 19785700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 17,
+            "line": 16,
             "name": "I should see the uploaded file path",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:100"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:110"
             },
             "result": {
               "status": "failed",
-              "duration": 2871200,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"test.pdf\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:103:28\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
+              "duration": 2314100,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"test.pdf\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at Proxy.<anonymous> (D:\\Project\\New folder\\Playwright\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:113:28\n    at fulfilled (D:\\Project\\New folder\\Playwright\\src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:38:58)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 18,
+            "line": 17,
             "name": "I download a file",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:106"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:116"
             },
             "result": {
               "status": "skipped",
@@ -180,10 +166,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 19,
+            "line": 18,
             "name": "I should see the downloaded file path",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:112"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:122"
             },
             "result": {
               "status": "skipped",
@@ -198,46 +184,46 @@
         "description": "",
         "id": "book-store-application;verify-new-tab-functionality",
         "keyword": "Scenario",
-        "line": 21,
+        "line": 20,
         "name": "Verify new Tab functionality",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 22,
+            "line": 21,
             "name": "I navigate to the Browser Window page",
-            "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 842125200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 23,
-            "name": "I open a new tab",
-            "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:123"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 688757300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "I should verify the content of the new tab",
             "match": {
               "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:128"
             },
             "result": {
               "status": "passed",
-              "duration": 393016100
+              "duration": 523818399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I open a new tab",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 364540799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should verify the content of the new tab",
+            "match": {
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 406934800
             }
           }
         ],
@@ -248,46 +234,46 @@
         "description": "",
         "id": "book-store-application;verify-new-window-functionality",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 25,
         "name": "Verify new Window functionality",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 27,
+            "line": 26,
             "name": "I navigate to the Browser Window page",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:128"
             },
             "result": {
               "status": "passed",
-              "duration": 114630900
+              "duration": 101414700
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
+            "line": 27,
             "name": "I open a new window",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:133"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:143"
             },
             "result": {
               "status": "passed",
-              "duration": 3221253300
+              "duration": 3240152600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
+            "line": 28,
             "name": "I should verify the content of the new window",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:138"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:148"
             },
             "result": {
               "status": "passed",
-              "duration": 3160943899
+              "duration": 3148424200
             }
           }
         ],
@@ -298,46 +284,46 @@
         "description": "",
         "id": "book-store-application;verify-message-window-functionality",
         "keyword": "Scenario",
-        "line": 31,
+        "line": 30,
         "name": "Verify Message Window functionality",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 32,
+            "line": 31,
             "name": "I navigate to the Browser Window page",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:118"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:128"
             },
             "result": {
               "status": "passed",
-              "duration": 167442699
+              "duration": 145399000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 33,
+            "line": 32,
             "name": "I open a new message window",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:143"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:153"
             },
             "result": {
               "status": "passed",
-              "duration": 3255765999
+              "duration": 3225158999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 34,
+            "line": 33,
             "name": "I should verify the content of the message window",
             "match": {
-              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:148"
+              "location": "src\\cucumber-test\\cucumber-steps\\UI-steps\\example.steps.ts:158"
             },
             "result": {
               "status": "passed",
-              "duration": 3166591799
+              "duration": 3144900399
             }
           }
         ],

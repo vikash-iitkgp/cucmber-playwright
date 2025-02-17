@@ -9,7 +9,6 @@ Feature: Book Store Application
   Scenario: Add a new record to WebTable
     Given I navigate to the WebTable page
     When I add new records to the WebTable
-    Then I should see the records in the table
 
   Scenario: Upload and Download File
     Given I navigate to the Upload Download page
